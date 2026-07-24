@@ -1,0 +1,19 @@
+/* client/src/pages/TrafficChart.css */
+.traffic-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.chart-key {
+  color: var(--teal);
+  font-size: 12px;
+}

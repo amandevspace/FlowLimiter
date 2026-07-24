@@ -1,0 +1,84 @@
+/* client/src/App.css */
+.app-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.app-title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.app-subtitle {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+
+.app-tabs {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.app-tabs button {
+  background: transparent;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.app-tabs button:hover {
+  color: var(--text);
+  border-color: var(--teal-dim);
+}
+
+.app-tabs button.tab-active {
+  background: rgba(63, 184, 175, 0.12);
+  border-color: var(--teal-dim);
+  color: var(--teal);
+}
+
+.app-account {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid var(--panel-border);
+}
+
+.app-account-name {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.app-logout {
+  background: transparent;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12.5px;
+  color: var(--text-dim);
+}
+
+.app-logout:hover {
+  color: var(--coral);
+  border-color: var(--coral);
+}
+
+.auth-check-splash {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dim);
+  font-size: 13px;
+  background: var(--bg);
+}

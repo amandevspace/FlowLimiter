@@ -1,0 +1,47 @@
+/* client/src/index.css */
+:root {
+  --bg: #14171a;
+  --panel: #1b1f23;
+  --panel-border: #2a2f35;
+  --text: #e8e6e1;
+  --text-dim: #8b9096;
+  --teal: #3fb8af;
+  --teal-dim: #2a7a74;
+  --coral: #e8735f;
+  --amber: #e8a23f;
+
+  --mono: 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+code, .mono {
+  font-family: var(--mono);
+}
+
+a {
+  color: var(--teal);
+}
